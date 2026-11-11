@@ -19,7 +19,7 @@ Para propor uma melhoria ou relatar um problema, abra uma issue no repositório 
 ## Como os projetos se conectam
 
 - **Sites.** O calendário, os avisos e o painel dos representantes ficam no repositório Agenda. As buscas e a administração dos horários ficam no repositório professores.
-- **Dados e login.** Os dados dos sites ficam no PostgreSQL. A API roda no Cloudflare Workers e o Firebase Authentication gerencia as contas. O código da API SQL fica em [`professores/agenda-sql-api`](https://github.com/Tech-2D/professores/tree/main/agenda-sql-api).
+- **Dados e login.** Os dados dos sites ficam no PostgreSQL. A API roda no Cloudflare Workers e o Firebase Authentication gerencia as contas. A API compartilhada dos dois sites fica no repositório privado [Tech-2D/api](https://github.com/Tech-2D/api).
 - **Serviços de apoio.** Recuperação de senha, anexos, consultas e automações da Agenda têm repositórios próprios. Com acesso à organização, consulte a aba [Repositórios](https://github.com/orgs/Tech-2D/repositories) e use os tópicos `frontend`, `backend`, `agenda` e `automacao` para encontrar o projeto certo.
 
 Para testar fluxos que dependem do backend, alinhe com a equipe o ambiente e a conta de teste. Mantenha credenciais, dados de alunos e capturas com informações pessoais fora de issues e pull requests públicos.
